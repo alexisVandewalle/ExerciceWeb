@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Home{% endblock %}
+{% block section %}
+<div class="container p-3">
+<form action="{% url "home" %}" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+</form>
+</div>
+<div class="container">
+<h1>Listes des albums</h1>
+<ul class="list-group">
+	{% for album in albums %}
+        <li class="list-group-item list-group-item-action col-7"><a href="{% url "voir_album" album.id %}">{{ album.Title }}</a></li>
+	{% endfor %}
+</ul>
+</div>
+{% endblock %}
