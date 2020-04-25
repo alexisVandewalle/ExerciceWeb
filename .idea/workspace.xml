@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e849e6f5-72ac-4a41-be0d-aa49bdc82c33" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/disks/templates/disks/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/disks/templates/disks/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinook.db" beforeDir="false" afterPath="$PROJECT_DIR$/chinook.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/disks/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/disks/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/disks/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/disks/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,34 +126,50 @@
       <workItem from="1587645690895" duration="82000" />
       <workItem from="1587645834387" duration="1230000" />
       <workItem from="1587667713893" duration="3952000" />
-      <workItem from="1587805641414" duration="2205000" />
+      <workItem from="1587805641414" duration="4226000" />
     </task>
+    <task id="LOCAL-00001" summary="changement du style">
+      <created>1587807948746</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587807948746</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changement du style" />
+    <option name="LAST_COMMIT_MESSAGE" value="changement du style" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1587807946819">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1587807946819" />
     <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1587645770814">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1587645770814" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1587716993754">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1587808111508">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1587716993754" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1587716993754">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1587808111508" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1587808111508">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1587716993754" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1587716993754">
+    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1587808111508" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1587808111508">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1587716993754" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1587716993754">
+    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1587808111508" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1587808111508">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1587716993754" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1587808111508" />
     <state x="263" y="39" key="com.intellij.database.dbimport.ImportDialog" timestamp="1587622810013">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
