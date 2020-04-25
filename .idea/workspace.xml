@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e849e6f5-72ac-4a41-be0d-aa49bdc82c33" name="Default Changelist" comment="" />
+    <list default="true" id="e849e6f5-72ac-4a41-be0d-aa49bdc82c33" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/disks/templates/disks/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/disks/templates/disks/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +66,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="88d8af86-325c-4a55-a2cb-a12b5d8c600b" />
   <component name="ProjectId" id="1avfCbeqe3RinutQhILvYUUkhoa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -115,7 +124,8 @@
       <workItem from="1587645659477" duration="4000" />
       <workItem from="1587645690895" duration="82000" />
       <workItem from="1587645834387" duration="1230000" />
-      <workItem from="1587667713893" duration="3944000" />
+      <workItem from="1587667713893" duration="3952000" />
+      <workItem from="1587805641414" duration="2205000" />
     </task>
     <servers />
   </component>
@@ -127,29 +137,29 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1587645770814" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1587645217459">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1587716993754">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1587645217459" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1587645217459">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1587716993754" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1587716993754">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1587645217459" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1587645217459">
+    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1587716993754" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1587716993754">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1587645217459" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1587645217459">
+    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1587716993754" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1587716993754">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1587645217459" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1587716993754" />
     <state x="263" y="39" key="com.intellij.database.dbimport.ImportDialog" timestamp="1587622810013">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="263" y="39" key="com.intellij.database.dbimport.ImportDialog/0.0.1366.768@0.0.1366.768" timestamp="1587622810013" />
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1587668078016">
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1587805750326">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1587668078016" />
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1587805750326" />
   </component>
 </project>
