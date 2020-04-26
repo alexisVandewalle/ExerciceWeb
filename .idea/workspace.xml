@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e849e6f5-72ac-4a41-be0d-aa49bdc82c33" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/disks/templates/disks/add_album.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercice/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercice/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chinook.db" beforeDir="false" afterPath="$PROJECT_DIR$/chinook.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/disks/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/disks/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/disks/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/disks/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/disks/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/disks/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/disks/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/disks/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/disks/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/disks/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +49,6 @@
         <item name="chinook" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="disks_album: table" type="3d80ac25:SqliteImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="chinook" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
         <item name="disks_track: table" type="3d80ac25:SqliteImplModel$Table" />
       </path>
     </expand>
@@ -62,8 +60,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -126,7 +124,8 @@
       <workItem from="1587645690895" duration="82000" />
       <workItem from="1587645834387" duration="1230000" />
       <workItem from="1587667713893" duration="3952000" />
-      <workItem from="1587805641414" duration="4226000" />
+      <workItem from="1587805641414" duration="6454000" />
+      <workItem from="1587835866632" duration="4710000" />
     </task>
     <task id="LOCAL-00001" summary="changement du style">
       <created>1587807948746</created>
@@ -135,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587807948746</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ajout de l'administration">
+      <created>1587809955637</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587809955637</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,40 +149,41 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changement du style" />
-    <option name="LAST_COMMIT_MESSAGE" value="changement du style" />
+    <MESSAGE value="ajout de l'administration" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout de l'administration" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1587807946819">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1587809954182">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1587807946819" />
-    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1587645770814">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1587809954182" />
+    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1587835903497">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1587645770814" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1587808111508">
+    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1587835903497" />
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1587842667492">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1587808111508" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1587808111508">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1587842667492" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1587842667490">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1587808111508" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1587808111508">
+    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1587842667490" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1587842667489">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1587808111508" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1587808111508">
+    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1587842667489" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1587842667491">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1587808111508" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1587842667491" />
     <state x="263" y="39" key="com.intellij.database.dbimport.ImportDialog" timestamp="1587622810013">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="263" y="39" key="com.intellij.database.dbimport.ImportDialog/0.0.1366.768@0.0.1366.768" timestamp="1587622810013" />
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1587805750326">
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1587835866483">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1587805750326" />
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1587835866483" />
   </component>
 </project>

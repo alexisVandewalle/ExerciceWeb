@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from disks.models import *
-from .forms import ResearchForm
+from .forms import *
 
 # Create your views here.
 
@@ -16,3 +16,10 @@ def voir_album(request, id):
     tracks = Track.objects.filter(album = album)
     artist = Artist.objects.get(album = album)
     return render(request,'disks/voir_album.html', locals())
+
+def add_album(request):
+    form_album = AlbumForm(request.POST or None)
+    if form_album.is_valid():
+        form_album.save()
+
+    return render(request,'disks/add_album.html',locals())

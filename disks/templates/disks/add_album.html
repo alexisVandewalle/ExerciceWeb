@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Ajouter un album{% endblock %}
+{% block section %}
+
+<div class="container p-3">
+<form action="{% url "add_album" %}" method="post">
+    {% csrf_token %}
+    {{ form_album.as_p }}
+    <input type="submit" value="Soumettre">
+</form>
+</div>
+{% endblock %}
